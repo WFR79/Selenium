@@ -25,7 +25,7 @@ namespace ConsoleApp1
             driver.Url = "http://www.google.co.in";
             driver.Manage().Window.Maximize();
             IWebElement link = driver.FindElement(By.XPath(".//*[@id='rt-header']//div[2]/div/ul/li[2]/a"));
-            link.Click();
+            link.Click(); 
             driver.Close();
         }
 
